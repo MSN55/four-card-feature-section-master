@@ -1,0 +1,32 @@
+@media (min-width:374px){
+    .container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+@media (max-width:1439px){
+    .container{
+        width:calc(100% + 40px);
+        height: calc(100% + 40px);
+        margin: 20px;
+    }
+    .head-section{
+        width:65%;
+       
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards > *{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+
